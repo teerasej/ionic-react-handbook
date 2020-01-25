@@ -1,6 +1,12 @@
 
 # การรันโปรเจคแบบ Mobile Application
 
+## ติดตั้ง module เพิ่มเติม
+
+```bash
+npm install -g ionic native-run
+```
+
 ## 1. การ build ไฟล์โปรเจค เพื่อเอาลง Mobile Platform
 
 1. เปิดโฟลเดอร์โปรเจคขึ้นมาใน Visual Studio Code
@@ -35,7 +41,7 @@ ionic capacitor add ios
 
 ## 3. กำหนด Application ID 
 
-1. เปิดไฟล์ configur
+1. เปิดไฟล์ `capacitor.config.json`
 2. กำหนด `appId` ในรูปแบบของ Reverse Domain Name 
 
 ```json
