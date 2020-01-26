@@ -1,22 +1,23 @@
 
+# สร้าง Route สำหรับหน้า New Contact
 
-# สร้าง Route URL สำหรับหน้า Detail 
+เปิดไฟล์ **src/App.tsx** 
 
-Ionic React กำหนดไฟล์ `App.tsx` เพื่อให้เราสร้าง URL ที่จะโหลด Component ต่างๆ ขึ้นมาได้ตามต้องการ
+และเพิ่ม Route URL สำหรับ `NewContactPage`
 
-เปิดไฟล์ `src/App.tsx`
+```js
+import NewContactPage from './pages/NewContact';
 
-## กำหนด Route ให้กับหน้า Detail 
-
-```jsx
-import DetailPage from './pages/Detail';
-
-<IonApp>
+const App: React.FC = () => (
+  <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        ...
+        <Route path="/home" component={Home} exact={true} />
         <Route path="/detail" component={DetailPage} exact={true} />
-        ...
+
+        <Route path="/new-contact" component={NewContactPage} exact={true} />
+
+        <Route exact path="/" render={() => <Redirect to="/home" />} />
       </IonRouterOutlet>
     </IonReactRouter>
 ```
@@ -49,6 +50,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import DetailPage from './pages/Detail';
+import NewContactPage from './pages/NewContact';
 
 const App: React.FC = () => (
   <IonApp>
@@ -56,6 +58,7 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route path="/home" component={Home} exact={true} />
         <Route path="/detail" component={DetailPage} exact={true} />
+        <Route path="/new-contact" component={NewContactPage} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
       </IonRouterOutlet>
     </IonReactRouter>
@@ -63,5 +66,4 @@ const App: React.FC = () => (
 );
 
 export default App;
-© 2020 GitHub, Inc.
 ```

@@ -26,7 +26,7 @@ let itemList = contactArray.map((item) => {
   })
 ```
 
-# ไฟล์ **src/pages/Home.tsx**
+## ไฟล์ **src/pages/Home.tsx**
 
 ```jsx
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem } from '@ionic/react';
