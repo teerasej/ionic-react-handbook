@@ -22,6 +22,7 @@
 ## กำหนด Splash Screen
 
 - [Android](splash-android.md)
+- [iOS](splash-ios.md)
 
 
 
