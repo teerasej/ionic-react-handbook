@@ -1,7 +1,7 @@
 
 # การสร้าง และจัดการ User Interface
 
-- เข้าใจการทำงานของ Ionic Component
+- [เข้าใจการทำงานของ Ionic Component](ionic-react-component.md)
 
 ## สร้างหน้า Home Page
 
