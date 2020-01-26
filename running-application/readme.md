@@ -7,5 +7,5 @@
 
 # การกำหนด Application Icon และ Splash Screen
 
-- [การกำหนด Application Icon และ Splash Screen](icon-splash.md)
+- [การกำหนด Application Icon และ Splash Screen](icon-splash.md )
 
