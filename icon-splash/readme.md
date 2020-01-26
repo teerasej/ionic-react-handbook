@@ -13,6 +13,9 @@
 
 ![2020-01-26_08-12-27](https://user-images.githubusercontent.com/85179/73129337-c90f4980-4013-11ea-9622-4b95adb97618.png)
 
+### หมายเหตุสำหรับ apetools 
+
+- ถ้าต้องการ folder '*-port' สำหรับ Android ให้เลือก **Android (Ionic)**
 
 ## กำหนด App Icon
 
