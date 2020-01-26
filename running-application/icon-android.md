@@ -1,5 +1,5 @@
 
-# กำหนด App Icon ใน Android 
+# กำหนด Splash Screen ใน Android 
 
 1. เปิดโปรเจคขึ้นมาใน Android Studio 
 
@@ -7,13 +7,12 @@
 npx cap open android 
 ```
 
-2. คลิกขวาที่โฟลเดอร์​ `res` และเลือก New → Image asset
+1.  ไปที่ Android → res → drawable 
+2. ค่อยๆ ลากไฟล์ Slash ที่ได้มาจากเว็บแอพ ไปวางในโฟลเดอร์ drawable ให้ตรงกัน
 
-![1_0sah3ztTlZoSBXUsrt4oog](https://user-images.githubusercontent.com/85179/73124424-ddc8ee80-3fcd-11ea-83d5-0a842877a8ac.png)
+หรือเลือก Explorer View เป็นแบบ **Project Files** เราจะเห็นโฟลเดอร์ **Splash** ได้ง่ายกว่าใน
 
-3. เลือกไฟล์รูปภาพจากตัวเลือก และปรับให้ตรงกับกรอบ 
+app → src → main → res  
 
-![1_E10BfLjUSF5rL8hCCNlvsg](https://user-images.githubusercontent.com/85179/73124440-284a6b00-3fce-11ea-9e60-7bc9d53b860e.png)
 
-4. กด **next** และกด **ok** 
-
+![1_H6tiIe5JnD3CKBL9NV_NdA](https://user-images.githubusercontent.com/85179/73129373-b0536380-4014-11ea-82cd-4a85a997639c.png)
