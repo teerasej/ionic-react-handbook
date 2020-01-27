@@ -9,3 +9,6 @@
 
 - [การกำหนด Application Icon และ Splash Screen](../icon-splash/readme.md)
 
+# การแก้ไขข้อมูลแอพ หลังจากสร้างไปแล้ว
+
+- [Android](edit-app-info-android.md)
