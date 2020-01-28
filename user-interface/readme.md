@@ -25,3 +25,21 @@
 9. [สร้างปุ่มเปิด New Contact จากหน้า Home](9-add-button-to-new-contact.md)
 10. [สร้างปุ่มปิด New Contact](10-create-close-button.md)
 11. [สร้าง Form](11-add-form.md)
+
+## แชร์ข้อมูล ระหว่าง Component
+
+12. [สร้าง module สำหรับเก็บข้อมูลระหว่าง component](12-create-share-data-module.md)
+13. [เก็บข้อมูลที่ถูกเลือกจากหน้า Home และดึงมาใช้งานในหน้า Detail](13-set-data-and-use-in-detail.md)
+
+## ส่งข้อมูลไปบันทึกที่ Web API
+
+14.  [ติดตั้ง Axios](14-setup-axios.md)
+15.  [เก็บข้อมูลจาก Input ไว้ใน State ด้วย `useState` Hook](15-get-input-data-with-usestate.md)
+16.  [สร้าง EmployeeAPI module และเขียน function ส่งข้อมูลไป Web API](16-create-employeeapi-module.md)
+17.  [เรียกใช้งาน createEmployee function ตอนกดปุ่ม Save](17-commit-data-to-web-api.md)
+
+## เรียกข้อมูลพนักงานจาก Web API
+
+18. [เขียน function ร้องขอข้อมูลพนักงาน ใน EmployeeAPI module](18-create-get-employee-function.md)
+19. [เปลี่ยนให้หน้า Home มาใช้ตัวแปร State เพื่อให้สามารถอัพเดตค่าที่มีผลต่อ JSX ได้](19-update-home-list-usestate.md)
+20. [เขียนโค้ดเรียกข้อมูลพนักงาน ไว้ใน function ที่จะทำงานทุกครั้งที่เปิดหน้า Home](20-call-webapi-everytime-home.md)
