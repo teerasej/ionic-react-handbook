@@ -33,7 +33,7 @@
 
 ## ส่งข้อมูลไปบันทึกที่ Web API
 
-14.  [ติดตั้ง Axios](14-setup-axios.md)
+14.  [ติดตั้ง Module และ Chrome Extension](14-setup-axios.md)
 15.  [เก็บข้อมูลจาก Input ไว้ใน State ด้วย `useState` Hook](15-get-input-data-with-usestate.md)
 16.  [สร้าง EmployeeAPI module และเขียน function ส่งข้อมูลไป Web API](16-create-employeeapi-module.md)
 17.  [เรียกใช้งาน createEmployee function ตอนกดปุ่ม Save](17-commit-data-to-web-api.md)
