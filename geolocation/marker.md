@@ -31,3 +31,5 @@ const onMapLoad = (map: any, maps: any) => {
     });
 }
 ```
+
+ทดสอบการทำงาน
