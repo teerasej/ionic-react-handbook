@@ -1,6 +1,8 @@
 
 # ปักหมุดตำแหน่ง ผ่าน Google Map API
 
+- [Google Map API Documentation](https://developers.google.com/maps/documentation/javascript/tutorial) 
+
 ตัว `GoogleMapReact` มีการเปิด props ที่ทำให้เราเรียกใช้ Google Map API ได้โดยตรง
 
 ทำได้โดยการกำหนด props

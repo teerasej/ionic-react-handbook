@@ -67,3 +67,25 @@ let googleMap;
 </IonContent>
 ```
 
+## 4. กำหนดตัวแปร state ด้วยข้อมูลที่ได้จาก Geolocation 
+
+หลังจากที่ได้พิกัดมา เราก็จะกำหนดค่าตัวแปร state ที่ทำให้เกิดการ render component ใหม่
+
+```js
+  setPositionReady(true);
+  setCurrentPosition({ lat: coordinates.coords.latitude, lng: coordinates.coords.longitude })
+```
+
+```js
+const startGetGPS = async () => {
+    console.log('getting gps');
+    setshowLoading(true);
+    const coordinates = await Geolocation.getCurrentPosition();
+    setshowLoading(false);
+    console.log('Current', coordinates);
+
+    setPositionReady(true);
+    setCurrentPosition({ lat: coordinates.coords.latitude, lng: coordinates.coords.longitude })
+}
+```
+
