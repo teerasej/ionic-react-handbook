@@ -1,7 +1,17 @@
 
 # Nextflow My Location
 
-- ดาวน์โหลดโปรเจคเริ่มต้น
+## ดาวน์โหลดโปรเจค
+
+- [ดาวน์โหลดโปรเจคเริ่มต้น](https://www.dropbox.com/s/ngtn18wpv54frto/NextflowMyLocation.zip?dl=0)
+- [ดาวน์โหลดโปรเจคสมบูรณ์](https://www.dropbox.com/s/jfkc3q5nnuwn64v/NextflowMyLocation-finish.zip?dl=0)
+
+## อ้างอิง 
+
+- [GoogleMapReact module](https://github.com/google-map-react/google-map-react)
+- [ตัวอย่างของ React Google Map บน Web App](https://github.com/teerasej/react-handbook/blob/master/practice/dashboard-app/3-create-map-branch.md)
+
+## Workshop
 
 ในแอพระบุตำแหน่งนี้ เราจะใช้ [Geolocation ของ Capacitor](https://capacitor.ionicframework.com/docs/apis/geolocation/) เพื่อเรียกใช้
 
@@ -11,14 +21,3 @@
 4. [แสดงแผนที่เมื่อได้ข้อมูลพิกัด](google-map.md)
 5. [ปักหมุดตำแหน่ง ผ่าน Google Map API](marker.md)
 
-
-
-
-ตัวอย่างของ React Google Map บน Web
-https://github.com/teerasej/react-handbook/blob/master/practice/dashboard-app/3-create-map-branch.md
-
-GoogleMapReact บน
-https://github.com/google-map-react/google-map-react
-
-ติดตั้ง Google Map React 
-npm i google-map-react @types/google-map-react
