@@ -9,3 +9,7 @@
 ## Workshop 
 
 - [My Location](geolocation/readme.md);
+
+## Deploy to App Store
+
+- [Deploy to App Store](distribution/readme.md)
