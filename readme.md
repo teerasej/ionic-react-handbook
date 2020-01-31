@@ -8,13 +8,10 @@
 3. [การรันโปรเจคแบบต่างๆ](running-application/readme.md)
 4. [ลองใช้ User Interface](user-interface/readme.md)
 
-## Practice
-
-- 
 
 ## Workshop 
 
-- [My Location](geolocation/readme.md);
+- [My Location](geolocation/readme.md)
 
 ## Deploy to App Store
 
